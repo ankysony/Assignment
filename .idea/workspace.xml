@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c3e21e-4216-4e65-b294-cb4ea829c0c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Question8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +40,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Question8">
-    <configuration name="Quesiton1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quesiton1" />
+  <component name="RunManager" selected="Application.Question13">
+    <configuration name="Question10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question10" />
+      <module name="Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question12" />
+      <module name="Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question13" />
       <module name="Assignment" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,9 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question13" />
+        <item itemvalue="Application.Question12" />
+        <item itemvalue="Application.Question10" />
         <item itemvalue="Application.Question8" />
         <item itemvalue="Application.Question6" />
-        <item itemvalue="Application.Quesiton1" />
       </list>
     </recent_temporary>
   </component>
