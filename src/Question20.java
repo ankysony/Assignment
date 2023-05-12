@@ -1,3 +1,5 @@
+import java.util.*;
+import java.util.stream.Collectors;
 
 class Emp {
     String name;
@@ -37,6 +39,21 @@ public class Question20 {
         Emp e3 = new Emp("pooja", 23);
         Emp e4 = new Emp("ganesh", 56);
 
-        
+        List<Emp> ll = new ArrayList<>();
+
+        ll.add(e1);
+        ll.add(e2);
+        ll.add(e3);
+        ll.add(e4);
+
+
+        List<Emp> sortedList = ll.stream()
+                .sorted(Comparator.comparingInt(Emp::getSalary))
+                .collect(Collectors.toList());
+
+        for(Emp em: sortedList)
+        {
+            System.out.println(em.name + " " + em.salary);
+        }
     }
 }
